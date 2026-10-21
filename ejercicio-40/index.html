@@ -4,26 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ejercicio 40</title>
+  <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <h1>Ejercicio 40</h1>
-  </header>
+  <nav class="nav">
+    <a class="nav-brand" href="../index.html">JS · Nivel 2</a>
+    <div class="nav-links">
+      <a href="../ejercicio-39/index.html">Anterior</a>
+      <a class="current" href="../index.html">Índice</a>
+      <span aria-disabled="true">Siguiente</span>
+    </div>
+  </nav>
 
-  <section class="consigna">
-    <h2>Consigna</h2>
-    <p>El jefe final: Crea un &lt;input&gt; y un botón. Cuando el usuario escriba una oración de varias palabras y envíe, extrae el .value, divídelo en un arreglo por los espacios en blanco, averigua cuántas palabras escribió (length del arreglo) y muestra ese número en la pantalla dentro de un &lt;h3&gt;.</p>
-  </section>
+  <main class="wrap">
+    <header class="page-header">
+      <p class="eyebrow">Nivel 2</p>
+      <h1>Ejercicio 40</h1>
+    </header>
 
-  <section class="resultados">
-    <h2>Resultados</h2>
-    <div class="controles">
+    <section class="consigna">
+      <h2>Consigna</h2>
+      <p>El jefe final: Crea un &lt;input&gt; y un botón. Cuando el usuario escriba una oración de varias palabras y envíe, extrae el .value, divídelo en un arreglo por los espacios en blanco, averigua cuántas palabras escribió (length del arreglo) y muestra ese número en la pantalla dentro de un &lt;h3&gt;.</p>
+    </section>
+
+    <section class="resultados">
+      <h2>Resultados</h2>
+      <div class="controles">
         <input type="text" id="entrada">
         <button type="button" id="boton">Enviar</button>
       </div>
       <h3 id="resultados"></h3>
-  </section>
+    </section>
+  </main>
 
   <script src="js/script.js"></script>
 </body>

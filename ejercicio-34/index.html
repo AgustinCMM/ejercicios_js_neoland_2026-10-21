@@ -4,26 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Ejercicio 34</title>
+  <link rel="stylesheet" href="../css/styles.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header>
-    <h1>Ejercicio 34</h1>
-  </header>
+  <nav class="nav">
+    <a class="nav-brand" href="../index.html">JS · Nivel 2</a>
+    <div class="nav-links">
+      <a href="../ejercicio-33/index.html">Anterior</a>
+      <a class="current" href="../index.html">Índice</a>
+      <a href="../ejercicio-35/index.html">Siguiente</a>
+    </div>
+  </nav>
 
-  <section class="consigna">
-    <h2>Consigna</h2>
-    <p>Toma un &lt;input&gt; y un botón. Al hacer clic, evalúa la longitud (length) del texto del input. Si es menor a 4 letras, muestra en un &lt;p&gt; "Contraseña muy corta".</p>
-  </section>
+  <main class="wrap">
+    <header class="page-header">
+      <p class="eyebrow">Nivel 2</p>
+      <h1>Ejercicio 34</h1>
+    </header>
 
-  <section class="resultados">
-    <h2>Resultados</h2>
-    <div class="controles">
+    <section class="consigna">
+      <h2>Consigna</h2>
+      <p>Toma un &lt;input&gt; y un botón. Al hacer clic, evalúa la longitud (length) del texto del input. Si es menor a 4 letras, muestra en un &lt;p&gt; "Contraseña muy corta".</p>
+    </section>
+
+    <section class="resultados">
+      <h2>Resultados</h2>
+      <div class="controles">
         <input type="text" id="entrada">
         <button type="button" id="boton">Enviar</button>
       </div>
       <p id="resultados"></p>
-  </section>
+    </section>
+  </main>
 
   <script src="js/script.js"></script>
 </body>
